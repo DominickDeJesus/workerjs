@@ -6,6 +6,9 @@
   "scripts": {
     "test": "nodemon main.js"
   },
+  "engines": {
+    "node": "15.x"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/DominickDeJesus/workerjs.git"
@@ -15,5 +18,13 @@
   "bugs": {
     "url": "https://github.com/DominickDeJesus/workerjs/issues"
   },
-  "homepage": "https://github.com/DominickDeJesus/workerjs#readme"
+  "homepage": "https://github.com/DominickDeJesus/workerjs#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "node-schedule": "^2.0.0",
+    "puppeteer": "^8.0.0",
+    "twilio": "^3.59.0"
+  }
 }
